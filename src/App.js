@@ -1,11 +1,36 @@
-import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import NotFound from "./components/NotFound/NotFound";
+import AllCourses from "./components/AllCourses/AllCourses";
+import About from "./components/About/About";
 
 function App() {
  return (
-  <div className="App">
-   <h1>Hello education</h1>
-  </div>
+  <Router>
+   <Header></Header>
+   <Switch>
+    <Route exact path="/">
+     <Home></Home>
+    </Route>
+    <Route exact path="/home">
+     <Home></Home>
+    </Route>
+    <Route exact path="/courses">
+     <AllCourses></AllCourses>
+    </Route>
+    <Route exact path="/about">
+     <About></About>
+    </Route>
+    <Route path="*">
+     <NotFound></NotFound>
+    </Route>
+   </Switch>
+   <Footer></Footer>
+  </Router>
  );
 }
 

@@ -1,0 +1,38 @@
+.hero-section {
+ min-height: 80vh;
+ background-image: url(../../images/header-slide-1.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.btn-regular {
+ border: none;
+ border-radius: 5px;
+ color: white;
+ background-color: #ff606e;
+ padding: 0.5em 1em;
+ font-size: 1.1rem;
+}
+.course-card {
+ transition: all 300ms;
+}
+.course-card:hover {
+ transform: scale(1.02);
+}
+.subscribe-section {
+ background: url(../../images/home-bottom-section.jpg);
+ min-height: 500px;
+}
+.bottom-banner {
+ font-family: cursive;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.placeholder-side {
+ width: 50%;
+}
+.content-side {
+ width: 40%;
+ color: #494949;
+}

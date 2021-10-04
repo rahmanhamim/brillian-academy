@@ -1,0 +1,15 @@
+.about-container {
+ min-height: 70vh;
+}
+
+.about-top-text {
+ color: #2d76b2;
+}
+.about-card {
+ border-bottom: 2em solid #ff5161;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ box-shadow: 2px 2px 8px rgb(143, 143, 143);
+ padding: 1em;
+}
