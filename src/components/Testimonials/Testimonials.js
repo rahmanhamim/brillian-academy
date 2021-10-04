@@ -9,7 +9,7 @@ import img4 from "../../images/testimonial-4.jpg";
 const Testimonials = () => {
  return (
   <div className="testimonial-container">
-   <Card className="about-card w-50 mx-auto my-4">
+   <Card className="about-card mx-auto my-4" style={{ maxWidth: "50rem" }}>
     <h3 className="about-top-text">What Students Say?</h3>
     <Card.Header>
      <h1>Testimonials</h1>{" "}
@@ -22,12 +22,12 @@ const Testimonials = () => {
     </Card.Body>
    </Card>
    <div className="row m-5">
-    <div className="col-12 col-md-3">
+    <div className="col-12 col-sm-12 col-md-6 col-lg-3">
      <div className="card text-white">
       <img src={img1} className="card-img img-testimonial" alt="..." />
       <div className="card-img-overlay testimonial-card-custom">
        <i className="fas fa-4x fa-play testimonial-icon"></i>
-       <p className="card-text fs-4 my-5">
+       <p className="card-text fs-5 mt-4">
         I had a wonderful time at this school, and an unforgettable moments! I
         felt that improving my English skills was very natural and adaptive!
        </p>
@@ -35,12 +35,12 @@ const Testimonials = () => {
       </div>
      </div>
     </div>
-    <div className="col-12 col-md-3">
+    <div className="col-12 col-sm-12 col-md-6 col-lg-3">
      <div className="card  text-white">
       <img src={img2} className="card-img" alt="..." />
       <div className="card-img-overlay">
        <i className="fas fa-4x fa-play testimonial-icon"></i>
-       <p className="card-text fs-4 my-5">
+       <p className="card-text fs-5 mt-4">
         I'm from Spain and it's a long distance from my country just to study
         and improve my English, but thankfully I did it and it was the best
         decision I could have ever made.
@@ -49,12 +49,12 @@ const Testimonials = () => {
       </div>
      </div>
     </div>
-    <div className="col-12 col-md-3">
+    <div className="col-12 col-sm-12 col-md-6 col-lg-3">
      <div className="card  text-white">
       <img src={img3} className="card-img" alt="..." />
       <div className="card-img-overlay">
        <i className="fas fa-4x fa-play testimonial-icon"></i>
-       <p className="card-text fs-4 my-5">
+       <p className="card-text fs-5 mt-4">
         Hello my name is Mostafa and I am from Egypt. I started studying at IIC
         14 months ago. Check out my video testimonial below!
        </p>
@@ -62,12 +62,12 @@ const Testimonials = () => {
       </div>
      </div>
     </div>
-    <div className="col-12 col-md-3">
+    <div className="col-12 col-sm-12 col-md-6 col-lg-3">
      <div className="card  text-white">
       <img src={img4} className="card-img" alt="..." />
       <div className="card-img-overlay">
        <i className="fas fa-4x fa-play testimonial-icon"></i>
-       <p className="card-text fs-4 my-5">
+       <p className="card-text fs-5 mt-4">
         My name is Maria. I am studying at the IIC for two and a half years.
         Overall I have excellent impression of this school.
        </p>

@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 
 const About = () => {
  return (
-  <div className="about-container container mx-auto d-flex justify-content-center align-items-center row">
+  <div className="about-container container mx-auto  my-4 d-flex justify-content-center align-items-center row">
    <div className="about-img-side col-12  col-md-6">
     <img className="img-fluid" src={aboutImg} alt="" />
    </div>
@@ -17,7 +17,7 @@ const About = () => {
      </Card.Header>
      <Card.Body>
       <Card.Title>
-       Find why <i class="fas fa-arrow-circle-right"></i>
+       Find why <i className="fas fa-arrow-circle-right"></i>
       </Card.Title>
       <Card.Text className="text-muted fs-5">
        With over 45 years of experience, Brillian Academy is internationally

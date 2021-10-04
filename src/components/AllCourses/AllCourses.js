@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import Course from "../Course/Course";
 import "./AllCourses.css";
 

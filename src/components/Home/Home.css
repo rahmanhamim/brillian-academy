@@ -22,17 +22,5 @@
 .subscribe-section {
  background: url(../../images/home-bottom-section.jpg);
  min-height: 500px;
-}
-.bottom-banner {
  font-family: cursive;
- display: flex;
- justify-content: center;
- align-items: center;
-}
-.placeholder-side {
- width: 50%;
-}
-.content-side {
- width: 40%;
- color: #494949;
 }

@@ -19,7 +19,7 @@ const Footer = () => {
        </p>
        <p className="small text-muted mb-0">
         &copy; Copyrights. All rights reserved.
-        <Link className="text-primary" to="/" className="text-decoration-none">
+        <Link className="text-primary text-decoration-none" to="/">
          {" "}
          BrillianAcademy.com
         </Link>
@@ -35,17 +35,17 @@ const Footer = () => {
          </Link>
         </li>
         <li>
-         <Link to="/" className="footer-link">
+         <Link to="/about" className="footer-link">
           About
          </Link>
         </li>
         <li>
-         <Link to="/" className="footer-link">
+         <Link to="/courses" className="footer-link">
           Get started
          </Link>
         </li>
         <li>
-         <Link to="/" className="footer-link">
+         <Link to="/about" className="footer-link">
           FAQ
          </Link>
         </li>

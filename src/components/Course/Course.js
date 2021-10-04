@@ -24,7 +24,7 @@ const Course = (props) => {
      <Card.Img variant="top" src={img} style={{ height: "400px" }} />
      <Card.Body>
       <Card.Title>{name} Language Course</Card.Title>
-      <Card.Text>
+      <div>
        {description}
        <div className="mt-4">
         <h4>Details:</h4>
@@ -50,7 +50,7 @@ const Course = (props) => {
          Next Batch Starts: <b>{startsDates}</b>
         </span>
        </div>
-      </Card.Text>
+      </div>
      </Card.Body>
      <Card.Footer className="d-flex justify-content-between align-items-center ">
       <h4 className="mx-5">Fee: {fee}$</h4>
