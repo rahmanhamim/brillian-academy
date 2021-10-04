@@ -1,0 +1,13 @@
+.testimonial-container {
+ min-height: 80vh;
+}
+.testimonial-icon {
+ color: #2d76b2;
+}
+.card-img-overlay {
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.356));
+}
+
+.card-img-overlay:hover {
+ background: none;
+}

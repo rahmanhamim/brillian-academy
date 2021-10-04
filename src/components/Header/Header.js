@@ -31,7 +31,7 @@ const Header = () => {
     </NavLink>
     <NavLink
      className="text-decoration-none text-dark fs-5 ms-5 navlink-custom"
-     to="/events"
+     to="/testimonials"
      activeStyle={{
       fontWeight: "bold",
      }}
