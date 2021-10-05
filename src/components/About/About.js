@@ -6,9 +6,11 @@ import { Card } from "react-bootstrap";
 const About = () => {
  return (
   <div className="about-container container mx-auto  my-4 d-flex justify-content-center align-items-center row">
+   {/* about img side here */}
    <div className="about-img-side col-12  col-md-6">
     <img className="img-fluid" src={aboutImg} alt="" />
    </div>
+   {/* about details side here */}
    <div className="about-text-side col-12 col-md-6">
     <Card className="about-card">
      <h3 className="about-top-text">Why Brillian Academy?</h3>

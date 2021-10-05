@@ -9,6 +9,7 @@ import img4 from "../../images/testimonial-4.jpg";
 const Testimonials = () => {
  return (
   <div className="testimonial-container">
+   {/* top title card here */}
    <Card className="about-card mx-auto my-4" style={{ maxWidth: "50rem" }}>
     <h3 className="about-top-text">What Students Say?</h3>
     <Card.Header>
@@ -21,6 +22,7 @@ const Testimonials = () => {
      </Card.Text>
     </Card.Body>
    </Card>
+   {/* testimonial main cards here */}
    <div className="row m-5">
     <div className="col-12 col-sm-12 col-md-6 col-lg-3">
      <div className="card text-white">

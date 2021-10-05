@@ -6,6 +6,7 @@ import "./Header.css";
 
 const Header = () => {
  return (
+  // Only NavLink is from react-router-dom rest are from bootstrap
   <Navbar bg="light" expand="lg" className="navbar-container">
    <Container>
     <NavLink className="nav-brand" to="/">

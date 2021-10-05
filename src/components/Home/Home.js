@@ -13,6 +13,7 @@ const Home = () => {
 
  return (
   <>
+   {/* top banner section here */}
    <section className="hero-section text-light d-flex justify-content-center align-items-center">
     <div className="hero-text text-center">
      <h1 className="display-2 fw-bold">Supreme Language School</h1>
@@ -21,9 +22,11 @@ const Home = () => {
      </p>
     </div>
    </section>
+   {/* display section here */}
    <section className="course-section container">
     <h1 className="my-5">Our Popular Courses</h1>
     <Row xs={1} md={2} className="g-4">
+     {/* slice used for loading only 4 data */}
      {courseData.slice(0, 4).map((course) => (
       <Col key={course.id}>
        <Card className="h-100 course-card">
@@ -43,6 +46,7 @@ const Home = () => {
      ))}
     </Row>
    </section>
+   {/* homepage bottom section here */}
    <section className="subscribe-section-container my-5 bottom-banner">
     <div className="row m-0 d-flex justify-content-center align-items-center subscribe-section">
      <div className="col-12 col-md-6"></div>
